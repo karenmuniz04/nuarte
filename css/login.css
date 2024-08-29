@@ -1,0 +1,41 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+ display: flex;
+ justify-content: space-around;
+}
+
+body {
+  background-image: url("/cadastro/img/fundo_login.png");
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+
+.form{
+  background-color: #fed391;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+  margin: 0 auto;
+  text-align: center;
+}
+.menu{
+margin: 0 auto;
+}
+.input_1{
+  margin: 0 auto;
+  align-items: center;
+}

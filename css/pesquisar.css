@@ -1,0 +1,32 @@
+body{
+    background-image: url("/cadastro/img/tela_fundo_geral.png");
+}
+
+h1{
+    color: white;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+td{
+    color: black;
+}
+table{
+    background-color:navajowhite;
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+}
+.voltar{
+    margin-left: 180vh;
+    margin-top: 6vh;
+}
+img{
+    height: 12vh;
+    width: 12vh;
+}

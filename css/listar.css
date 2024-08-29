@@ -1,0 +1,63 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/cadastro/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilo para o contêiner de dados */
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 20px auto;
+    border: 1px  #9053c7;
+    background-color: #fff;
+}
+
+/* Estilo para cada linha de dados */
+.data-row {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Estilo das colunas de dados */
+.data-column {
+    margin-bottom: 10px;
+}
+
+/* Estilo para a imagem */
+.data-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Estilo para os títulos */
+
+
+
+/* Estilos para destacar os títulos e valores correspondentes */
+
+
+
+
+
+

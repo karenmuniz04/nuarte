@@ -1,0 +1,73 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/cadastro/img/tela_fundo_geral.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilo do contêiner da forma */
+.bloco {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px  #9053c7;;
+}
+
+/* Estilo dos campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão */
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #555;
+}
+
+/* Estilo do link "voltar" */
+.voltar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilo da imagem de seta */
+.voltar img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

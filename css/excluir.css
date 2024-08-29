@@ -1,0 +1,43 @@
+body{
+    background-image: url("/cadastro/img/tela_fundo_geral.png");
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+td{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border: 1px solid #ffff;
+    align-items: center;
+    margin: 0 auto;
+}
+
+tr,td{
+    padding: 5px;
+    text-align: left;
+}
+tr:hover {background-color: #f5f5f5}
+tr{
+    background-color: #ffff;
+}
+
+.tabela{
+    background-color: #fec49d;
+}
+img{
+    height: 10vh;
+    width: 10vh;
+}
+
+
+.voltar{
+    margin-left: 180vh;
+    margin-top: 6vh;
+}

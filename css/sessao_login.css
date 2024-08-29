@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(90deg, rgba(255,49,49,1) 70%, rgba(255,145,77,1) 98%);
+}
+
+.icons{
+    position: absolute;
+    display: flex;
+}
+.icons img{
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-display: flex;
+}
+.legendas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    /*margin-top: 2vh;
+    display: inline-flex;*/
+    justify-content: space-around;
+}

@@ -1,0 +1,124 @@
+body{
+    background-image: url("/cadastro/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffff;
+    margin-top: 50px;
+    font-size: 6vmax;
+}
+
+.actions{
+    background-image: url("/cadastro/img/fundo_login.png");
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 90px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+   
+}
+.wrap-login100 {
+    width: 930px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 150px 60px 100px;
+}
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 150px 190px;
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+ .container_inicio{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ 
+  
+  .heading_container_inicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 90px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+   
+  }
+
+
+.container h2 {
+    color: #fff;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+   text-align: center;
+   padding-right: 150px;
+}
+
+
+
+
+.icons{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 5vh;
+    transition: all 0.2s;
+
+}
+.icons img{
+    width: 100%;
+}
+
+.wrap-login100 > div > a > .icons:hover{
+    transform: scale(1.12);
+    transition: all 0.2s;
+}
+
+.legendas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+

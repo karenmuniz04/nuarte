@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reserva de Salas</title>
+</head>
+<body>
+  <h1>Reserva de Salas</h1>
+  <p>Por favor, preencha o formulário abaixo para fazer uma reserva.</p>
+  <form method="post" action="http://localhost/cadastro/reservasala.php">
+
+   <label for="nome">Nome do Responsável:</label>
+    <input type="text" name="nome" id="nome"/><br><br> 
+
+    <label for="sala">Sala:</label>
+    <select name="sala" id="sala">
+      <option value="musica">Sala de música </option>
+      <option value="teatro">Sala de Teatro</option>
+      <option value="artes">Sala de Artes Visuais</option>
+    </select><br><br>
+
+    <label for="data">Data:</label>
+    <input type="date" name="data" id="data"/><br><br>
+
+    <label for="hora">Hora:</label>
+<select name="hora" id="hora">
+  <?php
+  // Exibe as opções de horários no formulário
+  $horariosDisponiveis = array('09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00');
+
+  foreach ($horariosDisponiveis as $horario) {
+    if (in_array($horario, $reservas)) {
+      // Se o horário estiver reservado, mostra como ocupado
+      echo '<option value="' . $horario . '" disabled>' . $horario . ' (Ocupado)</option>';
+    } else {
+      // Se o horário estiver disponível, mostra como opção selecionável
+      echo '<option value="' . $horario . '">' . $horario . '</option>';
+    }
+  }
+  ?>
+</select>
+
+
+
+    <input type="submit" value="Reservar"/>
+  </form>
+</body>
+</html>
